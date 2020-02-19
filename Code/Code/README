@@ -1,0 +1,21 @@
+
+
+Here we have 3 notebooks, resnet50-NoAug.ipynb, mobile_net_with_augmentation.ipynb, Final_VGG_augmentation.ipynb
+Instructions to run each file:
+
+
+
+******************************** resnet50-NoAug.ipynb ********************************
+This file contains our ResNet50 based model. 
+Here first we mount Google Drive to Google Colabotory to read the test and training files. Then we run the cells in the given order in order to define model structure and fit the model and predict. For reading the training and test files, change the path to your local files path.
+
+
+********************** mobile_net_with_augmentation.ipynb ****************
+This file contains our MobileNet based model.
+For mobilenet code, please use 'kaggle.json' file. You can get this file from your Kaggle account (My Account > Create new API token) and save this file and upload it, so you can use this dataset and read it from the kaggle account. Then we run the cells in the given order in order to define model structure and fit the model and predict. 
+
+
+************************ Final_VGG_augmentation.ipynb *****************
+This file contains our VGG16 and CNN based models.
+
+Here first we mount Google Drive to Google Colabotory to read the test and training files. Then we run the cells in the given order in order to define model structure that gives the best accuracy and fit the model and predict. For reading the training and test files, change the path to your local files path.
